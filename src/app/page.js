@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main className="h-[100vh] mt-16">
       <Header />
-      <div className="container mx-auto px-6 py-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="container h-[85vh] mx-auto px-6 py-8 grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="space-y-4">
           <Announcements />
           <ClassSchedule />

@@ -7,7 +7,7 @@ const Announcements = () => {
   return (
     <section className="px-4 md:px-4 lg:px-4">
       <h2 className="text-[20px] md:text-[24px] font-bold text-[#3A3A3A] mb-2">Announcements</h2>
-      <div className="space-y-2 bg-white p-4 md:p-6 rounded-xl shadow-lg">
+      <div className="space-y-2 bg-white p-4 md:p-4 rounded-xl shadow-lg">
         {announcements.map(({ icon, message }, index) => (
           <div 
             key={index}

@@ -1,12 +1,10 @@
 'use client'
 import React from "react";
 import data from "@/data/data"; 
-import PopupNotification from "./PopupNotification";
 
 const ClassSchedule = () => {
   const { schedule } = data;
  
-
   const todayClasses = schedule.filter(
     (classItem) => classItem.status === "Today"
   );
